@@ -13,4 +13,5 @@ jobs:
       with:
         server: dev.fast.sheridanc.on.ca
         username: swallowk
+        protocol: ftps
         password: ${{ secrets.ftp_password }}
