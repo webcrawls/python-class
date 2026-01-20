@@ -15,5 +15,6 @@ jobs:
           remote-protocol: "sftp"
           remote-host: "dev.fast.sheridanc.on.ca"
           remote-user: "swallowk"
-          ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          remote-password: ${{ secrets.ftp_password }}
+#          ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           remote-path: "."
