@@ -10,7 +10,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: "Deploy"
-        uses: milanm/actions-file-deployer@master
+        uses: milanmk/actions-file-deployer@master
         with:
           remote-protocol: "sftp"
           remote-host: "dev.fast.sheridanc.on.ca"
