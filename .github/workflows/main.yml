@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
-        server: swallowk.dev.fast.sheridanc.on.ca
+        server: dev.fast.sheridanc.on.ca
         username: swallowk
         password: ${{ secrets.ftp_password }}
