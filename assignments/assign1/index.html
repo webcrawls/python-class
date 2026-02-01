@@ -7,35 +7,17 @@ Date: 1/26/2026
 Description: An 'about me'-style page
 Page: Introduce visitors to my (Kaden's) background/interests
 Files: - assignments/assign1/index.html: the index page
-       - assignments/assign1/picture file todo
+       - assignments/assign1/spot.jpg: a picture of my cat spot, used in the about section, compressed with squoosh.app to reduce file size
 
 note: tools used - vscode code formatter (check what it actually is)
 -->
 
-<!-- 
-
-todo: wendi's examples are longer and more descriptive paragraphs (https://www-acad.sheridanc.on.ca/~jollymor/syst10049/submissions.html)
-todo: CSS overrides bonus marks
--->
-<!-- todo: light/dark mode -->
-<!-- todo: visitor counter -->
-<!-- todo story: minecraft chat bots; simulate the chat UI-->
-<!-- todo use ascii fixedwidth chars n shit type vibes-->
-<!-- wave accessibility tool -->
-<!-- w3c validator -->
-<!-- page logo from webbys world ------>
-<!-- Wendy says no </>, I have been living  a lie. <hr/> Lives on in my Heart. -->
-<!-- -->
-<!-- TODO apparently we have a standard <footer> to use -->
-
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me - Kaden's Portfolio</title>
+    <title>About - Kaden's Portfolio</title>
     <link rel="stylesheet" href="https://jollymor.dev.fast.sheridanc.on.ca/res/css/a1w1w25_dustyStoplight.css">
 
     <style>
@@ -47,12 +29,12 @@ todo: CSS overrides bonus marks
             --med: gray;
             --light: white;
             --shadow: gray;
-        
+
             /* Additional CSS variables **/
             --footer-link: rgb(218, 218, 218);
         }
 
-        footer {
+        /* footer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -65,18 +47,19 @@ todo: CSS overrides bonus marks
             flex-direction: row;
             align-items: center;
             gap: 1em;
-            padding: .25em; /* to match with Wendi's footer > address style */
-        }
+            padding: .25em;
+            /* to match with Wendi's footer > address style */
+        /* } */
 
-        footer>ul li {
+        /* footer>ul li {
             list-style-type: none;
             margin: 0;
             padding: 0;
-        }
+        } */
 
-        footer>ul li a {
+        /* footer>ul li a {
             color: var(--footer-link);
-        }
+        } */
 
         img {
             float: none !important;
@@ -84,33 +67,20 @@ todo: CSS overrides bonus marks
     </style>
 </head>
 
-
-
 <body>
     <header>
-        <h1>KADEN'S WORLD</h1>
+        <h1>About Me - KADEN'S WORLD</h1>
+            <nav>
+                <ul>
+                    <li><a href="../assign1/index.html">Assignment 1 (Here)</a></li>
+                    <li><a href="../assign2/index.html">Assignment 2</a></li>
+                    <li><a href="../assign3/index.html">Assignment 3</a></li>
+                    <li><a href="../assign4/index.html">Assignment 4</a></li>
+                </ul>
+            </nav>
     </header>
 
     <main>
-        <article>
-            <h2>On the Net™</h2>
-            <p>Yeah i love making websites what is it to you</p>
-            <ul>
-                <li><a href="https://borderlinefever.neocities.org/">INTERFERENCE PATTERN</a> (made for a Sheridan film
-                    capstone)</li>
-                <li><a href="https://github.com/webcrawls">Some other stuff</a></li>
-                <li>And this page.... (<a href="#">I even got that code on github bruh ask bout me</a>)</li>
-            </ul>
-            <hr />
-            <nav id="socials">
-                <ul>
-                    <li><a href="#">github</a></li>
-                    <li><a href="#">instagram</a></li>
-                    <li>me webersite (comig soon)</li>
-                </ul>
-            </nav>
-        </article>
-
         <article>
             <h2>Background</h2>
             <p>Born in Vernon, BC, I spent my first 10 or so years in Kelowna before moving to Ontario to start Grade 7.
@@ -204,18 +174,10 @@ todo: CSS overrides bonus marks
         <article>
             <h2>Bonus marks</h2>
 
-            <details>
-                <summary>Discussion: What can CSS do?</summary>
-            </details>
-
-            <details>
-                <summary>Footer stuff</summary>
-            </details>
-
             <details open>
                 <summary>CSS variable overrides</summary>
                 <p>This page serves as a demonstration of CSS variables. The provided CSS file (<a href="https://jollymor.dev.fast.sheridanc.on.ca/res/css/a1w1w25_dustyStoplight.css" rel="external">source</a>)
-                defines a few variables on the <code>:root</code> (pseudo-)selector, which are then overridden by the inline style element in this HTML page.</p>
+                    defines a few variables on the <code>:root</code> (pseudo-)selector, which are then overridden by the inline style element in this HTML page.</p>
                 <p>Per Mozilla Developer Network (which also refers to this feature as <em>custom properties</em> or <em>cascading variables</em>):</p>
                 <figure>
                     <blockquote>
@@ -258,24 +220,14 @@ todo: CSS overrides bonus marks
         </article>
     </main>
 
-
-    <!-- <aside class="container">
-        <nav>
-            <ul>
-                <li><a href="/assignments/assign1/index.html">Assn 1</a></li>
-                <li><a href="/assignments/assign2/index.html">Assn 2</a></li>
-                <li><a href="#">Assn 3</a></li>
-                <li><a href="#">Assn 4</a></li>
-            </ul>
-        </nav>
-    </aside> -->
-
     <footer>
         <address>&copy; Kaden Swallow 2026. All rights reserved.</address>
-        <ul>
-            <li><a href="mailto:itskadenhere@gmail.com">mail</a></li>
-            <li><a href="https://github.com/webcrawls/webdev-class/blob/master/assignments/assign1/index.html">source</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="mailto:itskadenhere@gmail.com">mail</a></li>
+                <li><a href="https://github.com/webcrawls/webdev-class/blob/master/assignments/assign1/index.html">source</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 
