@@ -14,9 +14,16 @@
 # After year 4  $1,464.10
 # After year 5  $1,610.51
 
-investment = float(input("Enter investment amount:"))
-interest_rate = float(input("Enter interest rate (0.0-1.0, or 0 to 100):"))
 
+# edit: WAIT WAIT WAIT HE DOES CARE ABOUT THE SPACING / INDENTATION / FORMATTING OF YOUR CONSOLE PRINTS AHHHHH
+# thas so annoying its the shit idc about but bless his heartd :333333
+#investment = float(input("Enter investment amount:"))
+#interest_rate = float(input("Enter interest rate (0.0-1.0, or 0 to 100):"))
+investment = float(input(f'{"Enter investment amount:" :44}'))
+interest_rate = float(input(f'{"Enter interest rate (0.0-1.0, or 0 to 100):":44}'))
+
+# this part is a kaden special because it makes more sense for ME to type 0.0 but teacher says 1-100 ykyk sooo
+# a better way would be to also check if its a float below 0.0 ...
 if interest_rate > 1:
     interest_rate = interest_rate / 100
 
