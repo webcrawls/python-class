@@ -1,5 +1,8 @@
 # python
 
+- https://slate.sheridancollege.ca/d2l/home/1491818
+
+
 Various exercises and labs done for my PROG12583 - Programming Foundations course at Sheridan College.
 
 ### Notes
