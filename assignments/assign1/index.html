@@ -1,0 +1,234 @@
+<!--
+Name: Kaden Swallow
+Assignment: Assignment #1 !todo?
+Date: 1/26/2026
+
+
+Description: An 'about me'-style page
+Page: Introduce visitors to my (Kaden's) background/interests
+Files: - assignments/assign1/index.html: the index page
+       - assignments/assign1/spot.jpg: a picture of my cat spot, used in the about section, compressed with squoosh.app to reduce file size
+
+note: tools used - vscode code formatter (check what it actually is)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Kaden's Portfolio</title>
+    <link rel="stylesheet" href="https://jollymor.dev.fast.sheridanc.on.ca/res/css/a1w1w25_dustyStoplight.css">
+
+    <style>
+        :root {
+            /* CSS Variable overrides */
+            --accent-dark: black;
+            --accent-light: white;
+            --dark: black;
+            --med: gray;
+            --light: white;
+            --shadow: gray;
+
+            /* Additional CSS variables **/
+            --footer-link: rgb(218, 218, 218);
+        }
+
+        /* footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1em;
+        }
+
+        footer>ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1em;
+            padding: .25em;
+            /* to match with Wendi's footer > address style */
+        /* } */
+
+        /* footer>ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        } */
+
+        /* footer>ul li a {
+            color: var(--footer-link);
+        } */
+
+        img {
+            float: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>About Me - KADEN'S WORLD</h1>
+            <nav>
+                <ul>
+                    <li><a href="../assign1/index.html">Assignment 1 (Here)</a></li>
+                    <li><a href="../assign2/index.html">Assignment 2</a></li>
+                    <li><a href="../assign3/index.html">Assignment 3</a></li>
+                    <li><a href="../assign4/index.html">Assignment 4</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Background</h2>
+            <p>Born in Vernon, BC, I spent my first 10 or so years in Kelowna before moving to Ontario to start Grade 7.
+            </p>
+            <p>I haven't had many chances to leave the country yet, but I love Canada and, while it has problems, I
+                think we can make it a great place to live.</p>
+        </article>
+
+        <article>
+            <h2>Education</h2>
+            <p>I'm currently in the 2-year Computer Programming (PCPRG) program, though I'm exploring my options in
+                terms of 'upgrading' to a 4 year degree. I love all aspects of computing and technology, so it's been
+                difficult to decide on a specialization.</p>
+            <p>After I graduate, I just hope I can secure myself a stable job.. anywhere. In a perfect world, I'd get to
+                make pretty, functional, and accessible web designs for a living - the intersection between visual arts,
+                complicated technologies and actual real-world impact is very alluring to me. We'll see, though - while
+                I don't think AI will take away these jobs entirely, obviously things are a little tough in...
+                <em>every</em> market. (I do try to use it as an effort to teach myself new technologies, but I'll be
+                honest - for the type of websites and projects I make, it's been useless. It likes to take the easy route, it
+                can't think about the future very well, etc, etc. Having a boilerplate generator is nice, though. Saves
+                me a click to Stack Overflow. <small>Oh, and I'm hoping it is obvious if you actually read the code, but this page is 100% AI free. I consulted MDN and Wendi's documentation mainly, but a lot of this is review. Academic integrity!</small>)
+            </p>
+            <p>I have a history with freelance - initially making game servers and mods where I grew comfortable with
+                Java, Python, and Go. Nowadays, I prefer to take on web projects, but between the frontend and backend,
+                there is plenty of variation tools and techniques to keep me interested.</p>
+            <p>I even have a <a href="https://github.com/webcrawls">GitHub</a> you can check out! <small>(Yeah I have a project with 30+ stars and I was the initial author on a project with 100+ stars. Whatsittoya.)</small> I haven't updated it
+                much over the past bit - life has had its plans for me - but I plan to make public the various projects
+                and assignments I've had to do for school. You can find my backlog of projets on there, as well.</p>
+        </article>
+
+        <article>
+            <h2>Secondary school</h2>
+            <p>I'll keep this section brief. I attended Banting Memorial High School in Alliston, ON for grades 9
+                through 12.</p>
+            <p>You might be surprised to learn I don't have my OSSD. As of now, I'm just missing my English 12U credit.
+            </p>
+            <p>My options were: waste away infront of a computer reading Shakespeare (I do actually enjoy reading his
+                plays!), or take the MSET test through Sheridan and just move on with my life. I chose option 2 - I'm
+                very appreciative of the opportunity to attend Sheridan and live directly in Oakville. 20 minute walk
+                from campus!</p>
+            <p>I was lucky to make a ton of (hopefully) life-long friends, though!</p>
+        </article>
+
+        <article>
+            <h2>About me</h2>
+
+            <ul>
+                <li>
+                    <p>I have a cat. Her name is Spot. She is elderly now, and I love her very much.</p>
+                    <p>Unfortunately, she doesn't stay with me right now - a friend and their housemates have been
+                        taking very good care of her. Honestly, I'm just glad Spot gets to have other cat friends... I
+                        think they annoy her <strikethrough>sometimes</strikethrough>, but it's good to get some
+                        socialization, even if you're just a cat.</p>
+                    <img src='/assignments/assign1/spot.jpg' alt='A picture of Spot, my calico cat, sitting with various books strewn about.' />
+                </li>
+                <li>
+                    <p>You can probably tell programming, and computers in general has been a hobby of mine since I was
+                        a kid. But I do other things! Music was my first love; I grew up playing the piano, violin and
+                        guitar (shoutout to my Mom for making me go to lessons). Now, my toxic trait is thinking I'll go
+                        triple platinum some day. I also have an appreciation for art, and I would like to become a
+                        skilled illustrator someday. But, I'm really bad at drawing, so I'm hoping I can pick up some
+                        techniques via osmosis - I go to an art school, so...</p>
+                    <p>I've also been trying to get into movies lately. I didn't watch many growing up - I watched Lion
+                        King for the first time with my roommates a few days ago (as of Jan 2026). I get funny looks but
+                        blame my parents not me 😭</p>
+                </li>
+                <li>
+                    <p>I try to stay active and fit, but that looks a little different for me compared to the average
+                        gym-goer. I'd like to explore more in terms of calisthenics, pylometrics, and yoga going
+                        forward. And cardio when I can. People need to do more body weight exercises!</p>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Anything else?</h2>
+            <p>I'm sure I'll think of more to add/share as time marches on. Some day my goal is to evolve this page into
+                an actual 'personal site' - I probably have 50+ half-complete portfolio pages, blog sites, etc that I
+                never finished, and as my professional career grows, I'll obviously need a proper online presence.</p>
+            <p>Some tell me I seem overqualified to be in these first-year courses (and for my Python class I
+                wholeheartedly agree - I'm currently begging faculty to let me take the PLAR), but there are little tips
+                and tricks that, especially for this web class, I probably would've missed/not thought about/etc. I
+                remember racing home to update a client's site when I learned about
+                <code>&lt;address&gt;...&lt;/address&gt;</code>, and that was just a brief aside from Wendi.
+            </p>
+            <p>Oh, also, by the time you're reading this, I should have figured out how to automatically deploy this code to the school's cPanel (S)FTP server! You can see that workflow <a href="https://github.com/webcrawls/webdev-class/blob/master/.github/workflows/main.yml">here.</a> I'm a little too broke to buy a whole new laptop for school, and I have an iPad, so I'm forced to do most of my in-person coding through GitHub Codespaces, which means I get to use GitHub Actions as well. I don't like being 'dependant' on a company like Microsoft, but, uh.. I'm also dependent on the agricultural industry, energy generation and delivery, water systems, public transit, big pharma, etc... we make these choices in life. I do have a proper desktop Windows computer at home where I can complete OS-specific tasks, though.</p>
+        </article>
+
+        <hr />
+
+        <article>
+            <h2>Bonus marks</h2>
+
+            <details open>
+                <summary>CSS variable overrides</summary>
+                <p>This page serves as a demonstration of CSS variables. The provided CSS file (<a href="https://jollymor.dev.fast.sheridanc.on.ca/res/css/a1w1w25_dustyStoplight.css" rel="external">source</a>)
+                    defines a few variables on the <code>:root</code> (pseudo-)selector, which are then overridden by the inline style element in this HTML page.</p>
+                <p>Per Mozilla Developer Network (which also refers to this feature as <em>custom properties</em> or <em>cascading variables</em>):</p>
+                <figure>
+                    <blockquote>
+                        <p>Custom properties [...] are entities defined by CSS authors that represent specific values to be reused throughout a document.
+                            [...]
+                            Custom properties allow a value to be defined in one place, then referenced in multiple other places so that it's easier to work with.
+                        </p>
+                    </blockquote>
+                    <figcaption>First two paragraphs from
+                        <cite>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties" rel="external">the MDN article on CSS variables</a>.
+                        </cite>
+                    </figcaption>
+                </figure>
+                <p>Essentially, these variables allow us to change something in one place, and have that change propogate across numerous other CSS rules. It makes complex websites easier to work with, and certain features like light/dark toggles and accessibility options become easier to implement with CSS variables.
+                <p>The following variables are overridden to achieve the monochromatic colour scheme you're seeing now:</p>
+                <pre>
+                    <code>
+:root {
+    --accent-dark: #7a5267 -> black;
+    --accent-light: #ebe0e6 -> white;
+    --dark: #476b6b -> black;
+    --med: #669999 -> gray;
+    --light: #f5f4f0 -> white;
+    --shadow: #998c66 -> gray;
+}
+                    </code>
+                </pre>
+                <p>An additional CSS variable (<code>--footer-link</code>) is defined and used to style the footer's link items:</p>
+                <pre>
+                    <code>
+:root {
+    --footer-link: rgb(218, 218, 218);
+}
+                    </code>
+                </pre>
+                <p>Locating these variables is easy -- aside from reading the stylesheet directly (which IMO is the best approach for a full understanding), browser inspector tools will typically show and highlight variables, allowing you to tweak them on-the-fly.</p>
+                <p>(I picked a black-and-white colour scheme, because colours are hard.)</p>
+            </details>
+        </article>
+    </main>
+
+    <footer>
+        <address>&copy; Kaden Swallow 2026. All rights reserved.</address>
+        <nav>
+            <ul>
+                <li><a href="mailto:itskadenhere@gmail.com">mail</a></li>
+                <li><a href="https://github.com/webcrawls/webdev-class/blob/master/assignments/assign1/index.html">source</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

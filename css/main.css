@@ -1,0 +1,123 @@
+/* If you want to change the colours, just change these variable values. */
+:root {
+    --dark: #6600ff;
+    --light: white;
+    --highlight: #f0e6ff;
+    --shadow: #ccc;
+  }
+  
+  html,
+  body {
+    font: 16px Arial, sans-serif;
+  }
+  
+  header,
+  footer {
+    background-color: var(--highlight);
+    border: .2em solid var(--dark);
+    box-shadow: .5em .5em .3emx var(--shadow);
+  }
+  
+  nav {
+    margin: 2em 1em;
+  }
+  
+  header,
+  footer,
+  header > nav,
+  article,
+  section,
+  aside,
+  address,
+  form  {
+    border-radius: .7em;
+    margin: .7em;
+    padding: .5em;
+  }
+  
+  nav > a {
+    padding: 1em;
+  }
+  
+  nav > a:hover {
+    background-color: var(--highlight);
+  }
+  
+  header nav > a:hover,
+  footer nav > a:hover {
+    background-color: var(--light);
+  }
+  
+  h1 {
+    border-bottom: .1em dashed var(--dark);
+    color: var(--dark);
+    font-size: 2em;
+  }
+  
+  h2 {
+    border-bottom: .2em solid var(--dark);
+    font-size: 1.75em;
+  }
+  
+  header h2 {
+    border: 0px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  h4 {
+    font-size: 1.25em;
+  }
+  
+  article,
+  section {
+    border: .1em dashed var(--dark);
+  }
+  
+  aside {
+    background-color: var(--highlight);
+    box-shadow: .5em .5em .3em var(--shadow);
+    margin: 1.5em;
+    padding: 1.5em;
+  }
+  
+  p {
+    padding: .7em;
+  }
+  
+  table {
+    border: .2em solid black;
+  }
+
+  td, th {
+    border: .1em dashed black;
+  }
+
+  th {
+    background-color: var(--light);
+  }
+
+  caption {
+    background-color: var(--shadow);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: .3em;
+  }
+  
+  form {
+	  border: .2em solid var(--dark);
+  }
+  
+  label, legend {
+	  font-weight: bold;
+  }
+  
+  fieldset {
+	  border: .1em solid var(--dark);
+  }
+  
+  legend {
+	  color: var(--dark);
+  }

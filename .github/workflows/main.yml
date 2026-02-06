@@ -1,0 +1,23 @@
+# on: push
+# name: 🚀 Deploy website on push
+# jobs:
+#   web-deploy:
+#     name: get that shii on the server yk
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: "Checkout"
+#         uses: actions/checkout@v6
+#         with:
+#           fetch-depth: 0
+#       - name: "Deploy"
+#         uses: milanmk/actions-file-deployer@master
+#         with:
+#           remote-protocol: "sftp"
+#           remote-host: "dev.fast.sheridanc.on.ca"
+#           remote-user: "swallowk"
+#           remote-password: ${{ secrets.ftp_password }}
+# #          ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+# #          remote-path: "."
+#           remote-path: "/data/home/swallowk/public_html"
+
+# TODO
