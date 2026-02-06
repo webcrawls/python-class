@@ -1,6 +1,6 @@
 cont_input = 'y'
 
-while cont_input.strip().lower():
+while cont_input.strip().lower() == 'y':
     values_input = input("Enter two numbers to be added:")
     first, second = values_input.split()
 
