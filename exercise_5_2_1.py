@@ -1,9 +1,9 @@
 while True:
     values_input = input("Enter two numbers to be added:")
-    values = values_input.split(" ")
+    first, second = values_input.split()
 
-    value = float(values[0]) + float(values[1])
-    print(value)
+    value = float(first) + float(second)
+    print(f"{first} + {second} = {value}")
 
 
     continue_input = input("Continue? (y/n)")
