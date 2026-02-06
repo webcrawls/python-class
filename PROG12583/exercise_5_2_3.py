@@ -31,6 +31,7 @@ YEARS = 5
 
 account_value = investment
 
+# he taught us range later and showed us for i in [1,2,3,4...] but i dunno i cant see future
 for year in range(1, YEARS + 1):
     account_value = account_value * (1 + interest_rate)
     print(f"After year {year}: ${account_value:.2f}")
