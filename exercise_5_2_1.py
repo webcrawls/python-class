@@ -7,5 +7,5 @@ while True:
 
 
     continue_input = input("Continue? (y/n)")
-    if continue_input == 'n':
+    if continue_input.strip().lower() == 'n':
         exit() # or break
