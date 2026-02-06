@@ -6,3 +6,4 @@ print('---------------------')
 for mile in range(1, 11):
     km = convert_to_km(mile) 
     print(f"{mile:^10}{km:^12.3f}")
+#    print(f"{mile:3d}{km:12.3}")
